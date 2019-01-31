@@ -29,7 +29,7 @@ def ckmeans(np.ndarray[np.float64_t] x,
                            &clustering[0], &centers[0],
                            &within_ss[0], &sizes[0])
 
-    print(within_ss)
+    #print(within_ss)
 
     if n_x == n_weights and y.sum() != 0:
         total_ss = np.sum(y * (x - np.sum(x * weights) / weights.sum()) ** 2)
