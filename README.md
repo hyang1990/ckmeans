@@ -3,6 +3,7 @@ of one-dimensional vectors. Its reference implementation is in C++, wrapped in
 an [R package](https://cran.r-project.org/web/packages/Ckmeans.1d.dp). This
 module is a Cython wrapper around the C++ code inside that package.
 (forked from rocketrip/ckmeans, remove some printed info)
+
 `pip install 'git+https://github.com/hyang1990/ckmeans/'`
 
 NOTE: this might fail to build using the default compiler (Clang) on OS X El
